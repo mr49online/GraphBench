@@ -26,7 +26,7 @@ GraphBench/
 │   │   ├── real_subgraphs_field_cotopic.jsonl
 │   │   ├── real_subgraphs_paper_coauthor_star.jsonl
 │   │   ├── real_subgraphs.jsonl                           # Final real subgraphs (all combined) 
-│   │   ├── ogbn_mag_graph_stats.csv
+│   │   ├── ogbn_mag_stats.csv
 │   │   ├── ogbn_mag_with_synthetic.gpickle                # Final heterogeneous graph
 │   │   ├── labeled_subgraphs.jsonl                        # Real + synthetic subgraph labels
 │   │   ├── synthetic_subgraphs.jsonl                      # Inserted synthetic patterns
@@ -34,20 +34,70 @@ GraphBench/
 │   │   └── graphbench_stats.csv                           # GraphBench statistics
 │   ├──📁queries/
 │   │   ├── query_subgraphs.jsonl
+│   │   ├── query_generation_log.csv
 │   │   ├── query_easy.jsonl
 │   │   ├── query_medium.jsonl
 │   │   ├── query_hard.jsonl
-│   │   ├── query_generation_log.csv
+│   │   ├── difficulty_distribution.png 
+│   │   ├── strategy_distribution.png
+│   │   ├── node_type_diversity.png
+│   │   ├──📁visualizations
+│   │   |   ├── query_types_grid.png
+│   │   |   ├── query_statistics.csv
+│   │   |   ├── query_synthetic_bidir_chain.png
+│   │   |   ├── query_institution_star.png
+│   │   |   ├── query_synthetic_chain.png
+│   │   |   ├── query_field_cotopic.png
+│   │   |   ├── query_synthetic_clique.png
+│   │   |   ├── query_synthetic_ring.png
+│   │   |   ├── query_synthetic_star.png
+│   │   |   ├── query_synthetic_double_star.png
+│   │   |   ├── query_author_coaffiliation.png
+│   │   |   ├── query_author_ego.png
+│   │   |   ├── query_paper_topic_chain.png
+│   │   |   ├── query_real_star.png
+│   │   |   ├── query_citation_chain.png
+│   │   |   ├── query_paper_coauthor_star.png
+│   │   |   ├── query_citation_triangle.png
+│   │   |   ├── query_field_neighborhood.png
+│   │   |   ├── query_hybrid_motif.png
+│   │   |   ├── query_motif_clique.png
+│   │   |   ├── query_ego_dense_2hop.png
+│   │   |   ├──query_ego_dense.png
 │   │   ├── spotted_queries.jsonl
 │   │   ├── query_spotting_summary.csv
 │   │   ├── query_spotting.log
+│   │   ├── evaluation_report.csv
+│   │   ├──📁evaluation_plots
+│   │   |   ├── f1_vs_match_count.png
+│   │   |   ├── f1_vs_node_types_by_difficulty.png
+│   │   |   ├── f1_vs_query_size.png
+│   │   |   ├── f1_vs_top_score.png
+│   │   |   ├── match_quality_distribution.png
+│   │   |   ├── node_type_bucket_heatmap.png
+│   │   |   ├── precision_vs_recall_by_difficulty.png
+│   │   |   ├── recall_vs_node_type.png
+│   │   |   ├── recall_vs_query_density.png
+│   │   |   ├── recall_vs_similarity_by_difficulty.png
 │   │   ├──📁evaluation_plots_extended
-│   │   |   ├── 
+│   │   |   ├── f1_by_difficulty_extended.png
+│   │   |   ├── coverage_rate_barplot.png
+│   │   |   ├── f1_by_heterogeneous_extended.png
+│   │   |   ├── false_positive_rate_barplot.png
+│   │   |   ├── match_count_boxplot.png
+│   │   |   ├── correlation_matrix.png
+│   │   |   ├── f1_score_boxplot.png
+│   │   ├──📁summary
+│   │   |   ├── aggregated_metrics_by_type.csv
+│   │   |   ├── avg_metrics_per_type_heatmap.png
+│   │   |   ├── difficulty_heatmap.png
+│   │   |   ├── match_rate_per_type.png
+│   │   |   ├── method_heatmap.png
+│   │   |   ├── query_spotting_summary.txt
 │   │   ├──
-
 ├──📁scripts/                                             # Contains pipeline scripts
 ├──📁demo/
-│   └── system_performance.mp4                 # Hardware performance video
+│   └── system_performance_while_query_generation_script_09.mp4           # Hardware performance video
 ├──📁utils/
 │   └── query_generators/                      # Query generators for spotting tasks
 └── README.md

@@ -1,0 +1,2 @@
+num_nodes,num_edges,avg_degree,num_self_loops,is_directed,is_multigraph,num_weakly_connected_components
+1939743,14105929,14.544121566619907,0,True,True,37252

@@ -1,0 +1,2 @@
+total_subgraphs,unique_nodes,total_edges,avg_nodes_per_subgraph,avg_edges_per_subgraph,heterogeneous_subgraphs,homogeneous_subgraphs,real_star,citation_chain,institution_star,paper_topic_chain,author_coaffiliation,field_neighborhood,author_ego,citation_triangle,field_cotopic,paper_coauthor_star
+54485,1057502,5812710,66.23,106.68,41985,12500,7500,8500,4206,7500,6327,4952,4000,4000,3500,4000

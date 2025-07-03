@@ -95,20 +95,22 @@ HSB-GDL/
 │   │   |   ├── method_heatmap.png
 │   │   |   ├── query_spotting_summary.txt
 │   │   ├──
-├──📁scripts/                                             # Contains pipeline scripts
+├──📁scripts/                                                      # Contains pipeline scripts
 ├──📁demo/
-│   └── system_performance_while_query_generation_script_09.mp4           # Hardware performance video
+│   └── system_performance_while_query_generation_script_09.mp4    # Hardware performance video
 ├──📁utils/
-│   └── query_generators/                      # Query generators for spotting tasks
+│   └── query_generators/                                          # Query generators for spotting tasks
 └── README.md
 ```
 **📊 Dataset Summary**
 | File                                | Description                                                     |
 | ----------------------------------- | --------------------------------------------------------------- |
-| `dblp_graph_with_synthetic.gpickle` | Full NetworkX graph: base + inserted synthetic subgraphs        |
+| `ogbn_mag_with_synthetic.gpickle`   | Full NetworkX graph: base + inserted synthetic subgraphs        |
+| 'real_subgraphs.jsonl'              | Extracted real subgraphs                                        |
+| `synthetic_subgraphs.jsonl'         | Injected synthetic subgraphs                                    |
 | `labeled_subgraphs.json`            | Real-world subgraph labels (e.g., citation chains, author egos) |
 | `query_subgraphs.jsonl`             | Full set of query subgraphs                                     |
-| `.csv`                              | Summary statistics                                              |
+
 
 **📌Key Subgraph Patterns**
 Real:

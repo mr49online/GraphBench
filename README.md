@@ -1,5 +1,5 @@
-# GraphBench: A Benchmark Dataset for Subgraph Spotting and Classification
-GraphBench is a curated benchmark dataset designed for evaluating subgraph spotting, classification, and robustness analysis in large heterogeneous graphs. It is constructed using the OGBN-MAG dataset as the base and incorporates both real-world and synthetic subgraph patterns. This dataset supports diverse research tasks including:
+# HSB-GDL: A Heterogeneous Subgraph Benchmark for Geometric Deep Learning
+HSB-GDL is a curated benchmark dataset designed for evaluating subgraph spotting, classification, and robustness analysis in large heterogeneous graphs. It is constructed using the OGBN-MAG dataset as the base and incorporates both real-world and synthetic subgraph patterns. This dataset supports diverse research tasks including:
 
 - Subgraph classification
 - Query graph spotting
@@ -8,7 +8,7 @@ GraphBench is a curated benchmark dataset designed for evaluating subgraph spott
 
 ## Repository Structure 📁
 ```
-GraphBench/
+HSB-GDL/
 ├──📁data/
 │   ├──📁raw/                                              # Original OGBN-MAG data
 │   |   ├──📁ogbn_mag/
@@ -31,7 +31,7 @@ GraphBench/
 │   │   ├── labeled_subgraphs.jsonl                        # Real + synthetic subgraph labels
 │   │   ├── synthetic_subgraphs.jsonl                      # Inserted synthetic patterns
 │   │   ├── real_subgraphs_stats.csv                       # Real subgraphs statistics
-│   │   └── graphbench_stats.csv                           # GraphBench statistics
+│   │   └── hsb_gdl_stats.csv                              # HSB-GDL statistics
 │   ├──📁queries/
 │   │   ├── query_subgraphs.jsonl
 │   │   ├── query_generation_log.csv

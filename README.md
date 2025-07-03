@@ -106,9 +106,9 @@ HSB-GDL/
 | File                                | Description                                                     |
 | ----------------------------------- | --------------------------------------------------------------- |
 | `ogbn_mag_with_synthetic.gpickle`   | Full NetworkX graph: base + inserted synthetic subgraphs        |
-| 'real_subgraphs.jsonl'              | Extracted real subgraphs                                        |
-| `synthetic_subgraphs.jsonl'         | Injected synthetic subgraphs                                    |
-| `labeled_subgraphs.json`            | Real-world subgraph labels (e.g., citation chains, author egos) |
+| `real_subgraphs.jsonl`              | Extracted real subgraphs                                        |
+| `synthetic_subgraphs.jsonl`         | Injected synthetic subgraphs                                    |
+| `labeled_subgraphs.jsonl`            | Real-world subgraph labels (e.g., citation chains, author egos) |
 | `query_subgraphs.jsonl`             | Full set of query subgraphs                                     |
 
 
